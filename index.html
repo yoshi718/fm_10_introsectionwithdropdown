@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+    <title>Frontend Mentor | Intro Section with Dropdown</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="main-nav">
+          <div class="logo">
+            <img src="images/logo.svg" alt="" class="logo-img" />
+          </div>
+          <ul class="main-nav__list">
+            <li class="dropdown" data-dropdown>
+              <button class="btn link" data-dropdown-button>
+                <span>Features</span>
+                <img src="images/icon-arrow-down.svg" alt="" />
+              </button>
+              <div class="dropdown-menu">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="images/icon-todo.svg" alt="" />
+                      <span>Todo List</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="images/icon-calendar.svg" alt="" />
+                      <span>Calendar</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="images/icon-reminders.svg" alt="" />
+                      <span>Reminders</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="images/icon-planning.svg" alt="" />
+                      <span>Planning</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="dropdown" data-dropdown>
+              <button class="btn link" data-dropdown-button>
+                <span>Company</span>
+                <img src="images/icon-arrow-down.svg" alt="" />
+              </button>
+              <div class="dropdown-menu">
+                <ul>
+                  <li>
+                    <a href="#">History</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Team</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+          </ul>
+          <div class="login">
+            <a href="#" class="login">Login</a>
+            <button class="btn">Register</button>
+          </div>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="content">
+            <h1 class="heading">Make <br />remote work</h1>
+            <p class="main-paragraph">
+              Get your team in sync. no matter your location. Streamline
+              processes, create team rituals, and watch procutivity soar.
+            </p>
+            <button class="btn btn-cta">Learn more</button>
+            <div class="client-logos">
+              <img
+                src="images/client-databiz.svg"
+                alt=""
+                class="client-logos__img"
+              />
+              <img
+                src="images/client-audiophile.svg"
+                alt=""
+                class="client-logos__img"
+              />
+              <img
+                src="images/client-meet.svg"
+                alt=""
+                class="client-logos__img"
+              />
+              <img
+                src="images/client-maker.svg"
+                alt=""
+                class="client-logos__img"
+              />
+            </div>
+          </div>
+          <div class="image">
+            <img src="images/image-hero-desktop.png" alt="" class="hero-img" />
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
